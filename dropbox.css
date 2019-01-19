@@ -25,8 +25,8 @@
         margin: 10px 5px;
         font-size: 14px;
       }
-      .menu li {display: none}
-      .menu:hover li {display: block}
+      .menu .dropdown {display: none}
+      .menu:hover .dropdown {display: block}
       .mobile {display: none;}
 
       main {
