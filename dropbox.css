@@ -1,0 +1,57 @@
+
+      body {
+        font-family: "Verdana", sans-serif;
+        padding: 100px 20px 10px 20px;
+      }
+
+      nav {
+        position: fixed;
+        top:0;
+        right:0;
+        height: 60px;
+        width: 100%;
+        box-shadow: 0 1px 1px lightgrey;
+        background-color: white;
+      }
+      nav img, nav ul {
+        display: inline-block;
+      }
+
+      .menu {
+        max-width: 100px;
+        padding: 7px 20px;
+        border-radius: 5px;
+        border: 1px solid lightgrey;
+        margin: 10px 5px;
+        font-size: 14px;
+      }
+      .menu li {display: none}
+      .menu:hover li {display: block}
+      .mobile {display: none;}
+
+      main {
+        padding: 20px;
+      }
+
+      header {
+        font-size: 18px;
+        margin-top: 0;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        border-top: 1px solid lightgrey;
+        padding: 30px;
+      }
+      .item {
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        font-size: 12px;
+      }
+
+      @media (max-width: 700px) {
+        .mobile {display: inline}
+        .full {display: none}
+      }
