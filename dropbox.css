@@ -33,7 +33,7 @@
       .mobile {display: none;}
 
       main {
-        padding: 20px;
+        padding: 0 20px;
       }
 
       header {
@@ -45,11 +45,11 @@
         display: flex;
         flex-wrap: wrap;
         border-top: 1px solid lightgrey;
-        padding: 30px;
+        padding: 20px;
       }
       .item {
-        width: 200px;
-        height: 200px;
+        width: 160px;
+        height: 160px;
         text-align: center;
         font-size: 12px;
       }
