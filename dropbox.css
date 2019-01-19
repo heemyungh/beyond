@@ -18,7 +18,7 @@
       }
 
       .menu {
-        max-width: 100px;
+        width: 70px;
         padding: 7px 20px;
         border-radius: 5px;
         border: 1px solid lightgrey;
@@ -27,9 +27,15 @@
         position:relative;
         float: right;
         background-color: #fff;
+        overflow: visible;
       }
       .menu .dropdown {display: none}
-      .menu:hover .dropdown {display: block}
+      .menu:hover .dropdown {
+        display: block
+        border: 1px solid lightgrey;
+        border-radius: 5px;
+        background-color: #fff;
+      }
       .mobile {display: none;}
 
       main {
