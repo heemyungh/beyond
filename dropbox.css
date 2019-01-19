@@ -86,5 +86,13 @@
       @media (max-width: 600px) {
         .mobile {display: inline}
         .full {display: none}
-        .menu {font-size: 12px;}
+        .menu {
+          font-size: 12px;
+          width: 10px;
+        }
+
+        .menu:hover .dropddown {
+          width: 130px;
+          right: 140px;
+        }
       }
