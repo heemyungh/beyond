@@ -1,15 +1,15 @@
 
       body {
         font-family: "Verdana", sans-serif;
-        padding: 80px 20px 10px 20px;
+        padding: 80px 2% 10px;
       }
 
       nav {
         position: fixed;
         top:0;
-        right:0;
+        left: 0;
         height: 60px;
-        width: 100%;
+        width: 90%;
         box-shadow: 0 1px 1px lightgrey;
         background-color: white;
       }
@@ -44,7 +44,7 @@
       .mobile {display: none;}
 
       main {
-        padding: 0 20px;
+        padding: 0 1%;
       }
 
       header {
@@ -89,10 +89,15 @@
         .menu {
           font-size: 12px;
           width: 10px;
+          border: none;
         }
-
-        .menu:hover .dropddown {
+        .header.mobile {
+          font-size:12px;
+          position: relative;
+          top: 20px;
+        }
+        .menu:hover .dropdown {
           width: 130px;
-          right: 140px;
+          right: 150px;
         }
       }
