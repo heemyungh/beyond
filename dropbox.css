@@ -24,6 +24,9 @@
         border: 1px solid lightgrey;
         margin: 10px 5px;
         font-size: 14px;
+        position:relative;
+        float: right;
+        background-color: #fff;
       }
       .menu .dropdown {display: none}
       .menu:hover .dropdown {display: block}
